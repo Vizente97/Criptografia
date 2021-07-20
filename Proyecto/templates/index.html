@@ -1,0 +1,53 @@
+{% extends 'template_base.html'%}
+
+{% block content%}
+<!-- Main Content -->
+<div id="content">
+    <br>
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h1 mb-1 text-gray-800">Presentación</h1>
+        </div>
+    
+        <!-- Que es minería -->
+        <div class="row">
+            <div class="col-lg-12 mb-4">       
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">¿Qué es Criptografía?</h6>
+                </div>
+                <div class="card-body">
+                    <p> La criptografía es el desarrollo de un conjunto de técnicas que permiten alterar y modificar mensajes o archivos con el objetivo de que no puedan ser leídos por todos aquellos usuarios que no estén autorizados a hacerlo.</p>
+                    <p> En la actualidad existen diversos tipos de criptografía:</p>
+                    <ul>
+                        <li> Criptografía simétrica.</li>
+                        <li> Criptografía asimétrica o criptografía de clave pública.</li>
+                    </ul>
+                    <br>
+                    <p><b>Criptografía simétrica:</b></p>
+                    <ul>
+                        <li> Solo utiliza una clave para cifrar y descifrar. Ésta debe ser previamente conocida por todas las partes involucradas.</li>
+                        <li> Tenemos la ventaja que podemos compartirla con cualquier persona de confianza, pero también existe la posibilidad de que se extravíe, o de que alguien la robe. Esa es la principal desventaja de la criptografía simétrica.</li>
+                    </ul>
+                    <br>
+                    <p><b>Criptografía asimétrica o criptografía de clave pública:</b></p>
+                    <ul>
+                        <li> Esta metodología tiene como base la utilización de dos claves diferentes, pero vinculadas matemáticamente entre sí, utilizadas para cifrar y descifrar el mensaje.</li>
+                    </ul>
+                    <div class="text-center">
+                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 50rem;"
+                            src="static/img/criptografia.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            </div> 
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->
+{% endblock%}
